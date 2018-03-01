@@ -16,10 +16,19 @@
     "coinmarketcap-api": "^1.0.1",
     "cors": "^2.8.4",
     "etherscan-api": "^4.0.0",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "ripple-lib": "*",
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "*"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   },
   "devDependencies": {
-    "nodemon": "^1.14.12"
+    "nodemon": "^1.14.12",
+    "eslint": "*"
   },
   "engines": {
     "node": "9.5.0"

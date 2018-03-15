@@ -1,7 +1,7 @@
 module.exports = function(app) {
 
-  var API = require('etcchain-node');
-  var etcchainApi = new API();
+  var ETCCHAIN = require('etcchain-node');
+  var etcchainApi = new ETCCHAIN();
 
   var priceFetcher = require('./price_fetcher');
 

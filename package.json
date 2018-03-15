@@ -18,7 +18,7 @@
     "body-parser": "^1.18.2",
     "coinmarketcap-api": "^1.0.1",
     "cors": "^2.8.4",
-    "etcchain-node": "^1.0.0",
+    "etcchain-node": "1.0.1",
     "etherscan-api": "^4.0.0",
     "express": "^4.16.2",
     "ripple-lib": "*"
